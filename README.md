@@ -1,5 +1,5 @@
-# gulp-starter
- A gulp boilerplate
+# Realtime sl tracking
+ A test where I try to track and viualize the sl metro
 
 ## Instructions
 ### Installation
@@ -19,4 +19,4 @@ $ gulp watch
 ```
 ---
  
-Learned from "https://css-tricks.com/gulp-for-beginners/".
+
