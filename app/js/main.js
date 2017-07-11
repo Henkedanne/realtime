@@ -29,5 +29,6 @@ function getData() {
         });
 }
 
-// @TODO filter functionen fungerar bra. hitta ett sätt att få rätt information
+// @TODO filter functionen verkar lite skum. den hoppar lite emellan olika arrays,
+// hitta ett sätt att få rätt information
 // på rätt plats. 
