@@ -23,4 +23,9 @@ gulp.task('browserSync', function() {
 			baseDir: 'app'
 		},
 	})
-})
+});
+
+gulp.task('build', function() {
+	return gulp.src(['app/*.html', 'app/css/*.css', 'app/js/*.js'])
+		.pipe(gulp.dest('dist'));
+});
