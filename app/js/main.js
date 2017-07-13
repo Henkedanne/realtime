@@ -3,7 +3,7 @@ let destName2 = document.getElementById('dest-name2');
 let dataHolder1 = document.getElementById('data-holder1');
 let dataHolder2 = document.getElementById('data-holder2');
 
-const apiKey = '18a7570569054c7cae4f437c57c88ade';
+let apiKey = key.API_KEY;
 let timeWindow = 30;
 let siteId = 9293;
 let url = 'https://cors.now.sh/' + 'http://api.sl.se/api2/realtimedeparturesV4.json?key=' + apiKey + '&siteid=' + siteId + '&timewindow=' + timeWindow;
